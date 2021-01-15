@@ -125,6 +125,7 @@ ssize_t file_pwrite(FAR struct file *filep, FAR const void *buf,
  *   fd       file descriptor (or socket descriptor) to write to
  *   buf      Data to write
  *   nbytes   Length of data to write
+ *   offset   The file offset
  *
  * Returned Value:
  *   The positive non-zero number of bytes read on success, 0 on if an
